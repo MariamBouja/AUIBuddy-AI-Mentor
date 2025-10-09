@@ -1,0 +1,24 @@
+# Environment
+venv/
+.env/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Ollama / Chroma / LangChain
+*.db
+*.bin
+*.json
+*.pkl
+*.ckpt
+*.gguf
+*.mpt
+*.parquet
+*.log
+chroma/
+vectorstore/
+data/
+models/
+
+# VS Code
+.vscode/
